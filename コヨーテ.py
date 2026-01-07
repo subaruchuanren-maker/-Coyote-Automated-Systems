@@ -92,10 +92,10 @@ def check_coyote(final_call, total_value):
 # 例: 4人プレイ
 players = ["霊夢", "魔理沙","妖夢","咲夜"]
 lives = {
-    "霊夢": 2,
+    "霊夢": 3,
     "魔理沙": 3,
     "妖夢": 3,
-    "咲夜": 2
+    "咲夜": 3
 }# 各プレイヤーのライフを3に設定
 used_cards = []
 
@@ -143,4 +143,5 @@ while len(players) > 1:
 
 # 最後のプレイヤーが勝利
 if len(players) == 1:
+
     print(f"{players[0]} の勝利です！")
